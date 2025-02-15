@@ -30,6 +30,8 @@ jobs:
   appknox:
     runs-on: ubuntu-latest
     steps:
+      - name: Print a message
+        run: echo "A new commit was pushed!"
       - name: Checkout Code
         uses: actions/checkout@v4
 
